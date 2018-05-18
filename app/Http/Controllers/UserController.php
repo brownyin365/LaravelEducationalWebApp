@@ -10,7 +10,7 @@ class UserController extends Controller
 {
     public function profile()
     {
-    	return view('profile', array('user' => Auth::user()) );
+    	return view('profile');
     }
 
     public function update_avatar(Request $request)
@@ -26,7 +26,7 @@ class UserController extends Controller
     		$user->save();
     	}
 
-    	return view('profile', array('user' => Auth::user()) );
+    	return view('profile');
     }
     
     /*public function create()
