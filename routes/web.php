@@ -17,23 +17,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
 Route::get('/profile', 'UserController@profile');
 
 Route::post('/profile', 'UserController@update_avatar');
 
-Route::get('/credential', 'CredentialController@credential');
-
-Route::post('/credential','CredentialController@credential']);
-
 Route::get('/scholarship', 'UserController@scholarship');
 
-Route::get('insert','StudInsertController@insertform');
-
-Route::post('create','StudInsertController@insert');
 
 
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
 

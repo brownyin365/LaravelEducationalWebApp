@@ -42,8 +42,9 @@ p{
 	font-family: 'Raleway', sans-serif;
 	letter-spacing:1px;
 	font-size:1em;
-	color:#999;
+	color:#fff;
 	line-height:1.8em;
+    text-align: center;
 }
 ul{
 	margin:0;

@@ -1,6 +1,4 @@
 @extends('layouts.app')
-
-@extends('layouts.app')
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -53,7 +51,7 @@
                             <li>
                                 <div class="wthree_banner_info_grid">
                                     <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                                    <h3>BSC Degree</h3>
+                                    <h3>Study Abroad</h3>
                                     <p>Get your Degree with Our Best Select Universities Across the Globe</p>
                                     <a href="{{url('/register')}}">Join Now</a>
                                 </div>
@@ -83,56 +81,26 @@
 
     <div class="mail" id="mail">
     <div class="container">
-        <h3 class="tittle-w3l">Mail Us</h3>
+        <h3 class="tittle-w3l">About Us</h3>
         <div class="agileinfo_mail_grids">
-            <div class="col-md-7 agileinfo_mail_grid_right">
-                <form action="#" method="post">
-                    <div class="col-md-6 col-sm-6 wthree_contact_left_grid">
-                        <input type="text" name="Name" placeholder="Name" required="">
-                        <input type="email" name="Email" placeholder="Email" required="">
-                    </div>
-                    <div class="col-md-6 col-sm-6 wthree_contact_left_grid">
-                        <input type="text" name="Telephone" placeholder="Telephone" required="">
-                        <input type="text" name="Subject" placeholder="Subject" required="">
-                    </div>
-                    <div class="clearfix"> </div>
-                    <textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-                    <input type="submit" value="Submit">
-                    <input type="reset" value="Clear">
+            <div>
+                <form style="font-weight: 14px">
+                    <h4>Why Study Away?</h4>
+<h5>An extended encounter with a foreign culture's different values and languages can teach us how to communicate across the barriers of custom, geography, and politics. Students who have studied abroad return with a deeper understanding of other peoples, of their own cultural background, of them­selves, and of their place in the world.
+
+Studying abroad will change your life. This is true not only in terms of personal development, but in terms of your career. Many students have pursued new interests or made contacts overseas that have had unforeseen benefits later on. Whatever your future holds, the time you spend abroad will be an undeniable asset.</h5>
+
+
                 </form>
             </div>
-            <div class="col-md-5 contact-left-w3ls">
-            <h3>Contact Info</h3>
-            <div class="visit">
-                <div class="col-md-2 col-sm-2 col-xs-2 contact-icon-wthree">
-                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-                </div>
-                <div class="col-md-10 col-sm-10 col-xs-10 contact-text-agileinf0">
-                    <h4>Visit us</h4>
-                    <h5>Accra, Ghana</h5>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="mail-w3">
-                <div class="col-md-2 col-sm-2 col-xs-2 contact-icon-wthree">
-                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                </div>
-                <div class="col-md-10 col-sm-10 col-xs-10 contact-text-agileinf0">
+            
+            <div class="mail-w3">            
                     <h4>Mail us</h4>
-                    <h5><a href="mailto:info@example.com">info@gmail.com</a></h5>
+                    <h5><a href="mailto:globalstudyliberia@gmail.com">globalstudyliberia@gmail.com</a></h5>
                 </div>
                 <div class="clearfix"></div>
             </div>
-            <div class="call">
-                <div class="col-md-2 col-sm-2 col-xs-2 contact-icon-wthree">
-                    <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
-                </div>
-                <div class="col-md-10 col-sm-10 col-xs-10 contact-text-agileinf0">
-                    <h4>Call us</h4>
-                    <h5>+233544392555</h5>
-                </div>
-                <div class="clearfix"></div>
-            </div>
+            
             
         </div>
             <div class="clearfix"> </div>

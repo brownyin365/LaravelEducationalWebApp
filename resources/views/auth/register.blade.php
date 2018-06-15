@@ -25,6 +25,48 @@
                             </div>
                         </div>
 
+                             <div class="form-group{{ $errors->has('applieduni') ? ' has-error' : '' }}">
+                            <label for="applieduni" class="col-md-4 control-label">Applied University</label>
+
+                            <div class="col-md-6">
+                                <input id="applieduni" type="applieduni" class="form-control" name="applieduni" value="{{ old('applieduni') }}" required>
+
+                                @if ($errors->has('applieduni'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('applieduni') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                             <div class="form-group{{ $errors->has('major') ? ' has-error' : '' }}">
+                            <label for="major" class="col-md-4 control-label">Major</label>
+
+                            <div class="col-md-6">
+                                <input id="major" type="major" class="form-control" name="major" value="{{ old('major') }}" required>
+
+                                @if ($errors->has('major'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('major') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                             <div class="form-group{{ $errors->has('dob') ? ' has-error' : '' }}">
+                            <label for="dob" class="col-md-4 control-label">Date of Birth</label>
+
+                            <div class="col-md-6">
+                                <input id="dob" type="dob" class="form-control" name="dob" value="{{ old('dob') }}" required>
+
+                                @if ($errors->has('dob'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('dob') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
 
                         <div class="form-group{{ $errors->has('telephone') ? ' has-error' : '' }}">
                             <label for="telephone" class="col-md-4 control-label">Telephone</label>

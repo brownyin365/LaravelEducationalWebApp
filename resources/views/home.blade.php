@@ -7,14 +7,16 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Dashboard</div>
 
-                <div class="panel-body">
+                <div class="panel-body" style="text-align: center;">
                     @if (session('status'))
                         <div class="alert alert-success">
                             {{ session('status') }}
                         </div>
                     @endif
 
-                    You are logged in!
+                    Thank You for signing up with you,
+                    we will contact you within 24hrs.
+
                 </div>
             </div>
         </div>

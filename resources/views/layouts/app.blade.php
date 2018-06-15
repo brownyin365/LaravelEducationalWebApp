@@ -55,7 +55,6 @@
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
                                         <a href="{{ url('profile')}}">Profile</a>
-                                        <a href="{{url('insert')}}">Updateprofile</a>
                                         <a href="{{ url('scholarship')}}">Scholarship</a>
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
